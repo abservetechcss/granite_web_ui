@@ -1,0 +1,1082 @@
+@font-face {
+  font-family: "Montreal Light";
+  src: url("../../fonts/montreal-light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montreal";
+  src: url("../../fonts/montreal-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montreal Bold";
+  src: url("../../fonts/montreal-bold.ttf") format("truetype");
+}
+
+:root {
+  --font-xxsmall: 14px;
+  --font-small: 16px;
+  --font-regular: 18px;
+  --theme-color: #38b5ff;
+}
+
+.tab_sec .nav-tabs .nav-link {
+  width: auto;
+  /* min-width: 160px; */
+  max-width: unset;
+}
+
+.tab_sec .nav-tabs.patienttab  .nav-link:not(.active) {
+  width: 160px;
+  color: #38b5ff;
+  font-family: "Montreal";
+  font-size: var(--font-xxsmall);
+  border: 1px solid #38b5ff !important;
+  border-bottom: 0px solid transparent !important;
+  border-right: 0px solid transparent !important;
+  border-top-right-radius: 0px
+}
+
+.btn-add_det {
+  white-space: nowrap;
+  display: block;
+  font-family: "Montreal";
+  font-size: var(--font-xxsmall);
+  color: #38b5ff !important;
+  background-color: #fff !important;
+  border: 1px solid #38b5ff !important;
+}
+
+.label-custom {
+  border-radius: 5px;
+  border: 0px solid transparent;
+  border-bottom: 2px solid lightgray;
+  background-color: #f5f5f5;
+}
+
+.search_icon {
+  position: absolute;
+  top: 4px;
+  left: 10px;
+  font-size: 16px;
+  color: grey;
+}
+
+.rbt-input-main.form-control.rbt-input {
+  width: 480px;
+  margin-right: 10px;
+  padding-left: 35px;
+  font-size: 14px;
+}
+
+#search_typehead .dropdown-item {
+  font-size: 14px;
+}
+
+input[type="date"]::-webkit-datetime-edit {
+  font-family: "Montreal";
+  font-size: var(--font-xxsmall);
+  color: #000 !important;
+}
+
+.tab_sec .nav-link:focus-visible {
+  outline: unset;
+}
+
+.tab_sec .nav-link:hover {
+  color: #38b5ff;
+}
+
+.tab_sec .nav-tabs.patienttab .nav-link.active {
+  width: 198px;
+  background-color: #38b5ff !important;
+  color: #fff !important;
+  border: none;
+}
+
+.tab_sec .nav-link+svg {
+  color: #38b5ff !important;
+  padding: 10px;
+  margin-bottom: -1px;
+  border-radius: 0px 5px 0px 0px;
+  width: 34px;
+  height: 34px;
+  border: 1px solid #38b5ff;
+  border-left: none;
+  border-bottom: none;
+}
+
+.tab_sec .nav-link.active+svg {
+  background-color: #38b5ff !important;
+  color: #fff !important;
+  padding: 10px;
+  margin-bottom: -1px;
+  border-radius: 0px 5px 0px 0px;
+  width: 38px;
+  height: 38px;
+}
+
+.tab_sec nav {
+  align-items: end;
+}
+
+.tab_sec .tab-details {
+  background-color: #38b5ff !important;
+  padding: 13px 0;
+}
+
+.tab_sec .tab-details a {
+  color: #fff;
+  white-space: nowrap;
+  text-decoration: none;
+  font-family: "Montreal";
+  font-size: var(--font-xxsmall);
+}
+
+.tab_sec .det_Name.form-control {
+  width: auto;
+  color: #fff !important;
+  font-family: "Montreal";
+  font-size: var(--font-regular);
+  font-weight: 600;
+  margin-bottom: 0px;
+  border: 0px solid transparent;
+  background-color: #38b5ff;
+  padding: 6px 0px;
+  border-radius: 0px;
+}
+
+.tab_sec .det_Name.form-control:focus {
+  background-color: #38b5ff !important;
+  color: #fff !important;
+  box-shadow: none;
+  border-bottom: 1px solid #fff;
+}
+
+.tab_sec .det_Name.form-control.disabled {
+  cursor: default;
+}
+
+.tab_sec .det_Date {
+  color: #fff !important;
+  margin-bottom: 0px;
+  font-family: "Montreal";
+  font-size: var(--font-regular);
+}
+
+.tab_sec .det_gender {
+  color: #fff !important;
+  margin-bottom: 0px;
+  font-family: "Montreal";
+  font-size: var(--font-xxsmall);
+}
+
+.tab_sec .input_content ul.nav-tabs {
+  background-color: grey;
+  padding: 0px 15px;
+}
+
+.tab_sec .input_content .nav-tabs .nav-link.active{
+  font-size: var(--font-xxsmall);
+    color: #fff;
+    border: 0px solid #38b5ff !important;
+}
+.tab_sec .input_content .tab-content .tab-pane{
+  background-color: #eeeeee;
+  padding: 0px 15px;
+}
+
+.tab_sec .input_content .tab-content .tab-pane .mt-4{
+  margin-top: 0!important;
+  padding-top: 30px!important;
+}
+
+.tab_sec .input_content .nav-tabs .nav-link:not(.active){
+    color: #fff;
+    font-size: var(--font-xxsmall);
+    border: 0px solid #38b5ff !important;
+}
+
+.tab_sec .input_content .nav-link {
+  position: relative;
+  width: auto;
+  color: #fff;
+  font-family: "Montreal";
+  font-size: var(--font-small);
+  background-color: transparent !important;
+  border: 0px solid transparent !important;
+}
+
+.tab_sec .input_content .nav-link.active {
+  color: #fff;
+  background-color: transparent !important;
+  border: 0px solid transparent !important;
+}
+
+.tab_sec .input_content .nav-link.active:before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 15px;
+  width: 35px;
+  height: 3px;
+  background-color: #fff;
+}
+
+.plusIcon svg {
+  width: 12px;
+}
+
+.plusIcon.active svg {
+  transform: rotate(45deg);
+}
+
+.component-modal.side .modal-dialog {
+  max-width: 250px;
+}
+
+.tab_sec .tab-content .tab-pane h3,
+.layout-modal h3,
+.component-modal h3 {
+  /* font-weight: 500; */
+  margin-bottom: 5px;
+  font-family: "Montreal";
+  font-size: 16px;
+}
+
+.component-modal .modal-footer {
+  border: none;
+}
+
+.component-modal {
+  color: #000;
+  font-family: "Montreal";
+  font-size: 16px;
+}
+
+.layout-modal h5 {
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-family: "Montreal";
+  font-size: 14px;
+}
+
+.warning-modal .modal-title {
+  font-family: "Montreal";
+  font-size: 22px;
+  color: #000;
+}
+
+.warning-modal .modal-header {
+  border: 0px solid transparent;
+}
+
+.warning-modal .modal-body {
+  font-family: "Montreal";
+  font-size: 16px;
+  color: var(--theme-color);
+}
+
+.tab_sec .tab-content .tab-pane label,
+.layout-modal label {
+  font-family: "Montreal";
+  color: #000;
+  font-size: var(--font-small);
+}
+
+.patient-radio {
+  background: #f5f5f5;
+  padding: 14px 0px;
+  border-radius: 5px;
+  border-bottom: 3px solid #c5c5c5;
+}
+
+.patient-radio.is-invalid {
+  border-bottom: 3px solid #dc3545;
+}
+
+.patient-radio .col-lg-3 label {
+  opacity: 0.65;
+  font-size: 14px;
+}
+
+.patient-radio .col-lg-4 label {
+  opacity: 0.65;
+  font-size: 14px;
+}
+
+.tab_sec .tab-content .tab-pane .details_Input,
+.layout-modal .details_Input {
+  /* padding: 0px 15px; */
+  margin: 0px 0px;
+}
+
+.layout-modal .notes,
+.notes {
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.layout-modal input:checked[type="radio"],
+.layout-modal input:checked[type="checkbox"] {
+  background-color: var(--theme-color);
+  border-color: var(--theme-color);
+}
+
+.tab_sec .tab-content .tab-pane .details_Input input,
+.tab_sec .tab-content .tab-pane .details_Input select,
+.tab_sec .tab-content .tab-pane .details_Input select option,
+.tab_sec .tab-content .tab-pane .details_Input textarea {
+  font-family: "Montreal";
+  color: #000;
+  font-size: var(--font-small);
+}
+
+.tab_sec .tab-content .tab-pane .overflow-content input[type="date"],
+.tab_sec .tab-content .tab-pane .overflow-content input[type="text"],
+.tab_sec .tab-content .tab-pane .overflow-content input[type="email"],
+.tab_sec .tab-content .tab-pane .overflow-content input[type="number"],
+.tab_sec .tab-content .tab-pane .overflow-content input[type="datetime-local"],
+body .react-tel-input input[type="tel"],
+.tab_sec .tab-content .tab-pane .overflow-content select,
+.tab_sec .tab-content .tab-pane .overflow-content textarea {
+  border-radius: 5px;
+  border: 0px solid transparent;
+  border-bottom: 3px solid lightgray;
+  background-color: #f5f5f5;
+}
+
+body .react-tel-input .special-label{
+  background-color: transparent;
+  opacity: .65;
+  transform: scale(.85) translateY(-0.5rem) translateX(0.15rem);
+  top: 8px;
+  left: 0;
+  font-family: 'Montreal';
+  font-size: 16px;
+}
+
+body .react-tel-input .form-control:hover{
+  border-bottom: 3px solid lightgray;
+}
+body .react-tel-input .form-control{
+  padding: 24.5px 14px 6.5px 58px;
+}
+body .react-tel-input .form-control:focus{
+  border-bottom: 3px solid #38b5ff;
+  box-shadow: none;
+}
+body .react-tel-input .flag-dropdown {
+  top: unset;
+  bottom: 20px
+}
+
+.component-modal input[type="date"],
+.component-modal input[type="text"],
+.component-modal input[type="email"],
+.component-modal input[type="number"],
+.component-modal input[type="datetime-local"],
+.component-modal select,
+.component-modal textarea {
+  border-radius: 5px;
+  border: 0px solid transparent;
+  border-bottom: 3px solid lightgray;
+  background-color: #f5f5f5;
+}
+
+.tab_sec .tab-content .tab-pane .overflow-content input.is-invalid,
+.tab_sec .tab-content .tab-pane .overflow-content select.is-invalid,
+.tab_sec .tab-content .tab-pane .overflow-content textarea.is-invalid {
+  border-bottom: 3px solid #dc3545;
+}
+
+input.is-invalid,
+select.is-invalid,
+textarea.is-invalid {
+  border-width: 0px;
+  border-bottom: 3px solid #dc3545;
+  background-color: #f5f5f5;
+}
+
+small.invalid {
+  color: #dc3545;
+}
+
+.tab_sec .tab-content .tab-pane .overflow-content input[type="date"]:focus,
+.tab_sec .tab-content .tab-pane .overflow-content input[type="text"]:focus,
+.tab_sec .tab-content .tab-pane .overflow-content input[type="email"]:focus,
+.tab_sec .tab-content .tab-pane .overflow-content input[type="number"]:focus,
+.tab_sec .tab-content .tab-pane .overflow-content input[type="datetime-local"]:focus,
+.tab_sec .tab-content .tab-pane .overflow-content select:focus,
+.tab_sec .tab-content .tab-pane .overflow-content textarea:focus {
+  border-bottom: 2px solid var(--theme-color);
+  background-color: #f5f5f5;
+  box-shadow: none;
+}
+
+.component-modal input[type="date"]:focus,
+.component-modal input[type="text"]:focus,
+.component-modal input[type="email"]:focus,
+.component-modal input[type="number"]:focus,
+.component-modal input[type="datetime-local"]:focus,
+.component-modal select:focus,
+.component-modal textarea:focus {
+  border-bottom: 2px solid var(--theme-color);
+  background-color: #f5f5f5;
+}
+
+.tab_sec .tab-content .tab-pane .overflow-content input[type="date"]:focus+label,
+.tab_sec .tab-content .tab-pane .overflow-content input[type="text"]:focus+label,
+.tab_sec .tab-content .tab-pane .overflow-content input[type="email"]:focus+label,
+.tab_sec .tab-content .tab-pane .overflow-content input[type="number"]:focus+label,
+.tab_sec .tab-content .tab-pane .overflow-content select:focus+label,
+.tab_sec .tab-content .tab-pane .overflow-content textarea:focus+label {
+  color: var(--theme-color);
+}
+
+.component-modal input[type="date"]:focus+label,
+.component-modal input[type="text"]:focus+label,
+.component-modal input[type="email"]:focus+label,
+.component-modal input[type="number"]:focus+label,
+.component-modal select:focus+label,
+.component-modal textarea:focus+label {
+  color: var(--theme-color);
+}
+
+.tab_sec .tab-content .tab-pane .details_Input input:focus,
+.tab_sec .tab-content .tab-pane .details_Input select:focus,
+.tab_sec .tab-content .tab-pane .details_Input textarea:focus,
+.layout-modal input:focus,
+.layout-modal textarea:focus,
+.layout-modal select:focus,
+.component-modal input:focus,
+.component-modal textarea:focus,
+.component-modal select:focus {
+  box-shadow: none;
+}
+
+.tab_sec .tab-content .tab-pane .overflow-content textarea,
+.layout-modal textarea,
+.component-modal textarea {
+  resize: none;
+}
+
+.btn-plan {
+  font-family: "Montreal";
+  font-size: var(--font-regular);
+  background-color: #fff !important;
+  border: 1px solid #38b5ff !important;
+  color: #38b5ff !important;
+}
+
+.tab_sec .tab-content .tab-pane .details_Input .event-table th,
+.layout-modal .event-table th,
+.event-table th,
+.plan-note-modal .table tr th {
+  font-family: "Montreal";
+  font-size: var(--font-small);
+  background-color: #eeeeee;
+  text-align: center;
+  border: 1px solid lightgrey !important;
+  color: #8899a8;
+  white-space: nowrap;
+}
+.plan-note-modal .table tr :not(:nth-child(1)){
+  width: 150px;
+}
+
+.tab_sec .tab-content .tab-pane .details_Input .event-table td,
+.layout-modal .event-table td,
+.event-table td {
+  font-family: "Montreal";
+  font-size: var(--font-small);
+  text-align: center;
+  border: 1px solid lightgrey !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+input[type="date"]::-webkit-datetime-edit {
+  color: grey;
+}
+
+.tab_sec .tab-content .tab-pane .border-frame,
+.layout-modal .border-frame {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #eeeeee;
+  position: relative;
+}
+
+.billingDetail-asw .border-frame {
+  position: relative;
+}
+
+.layout .editicon {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 5px 0px #c3c3c3;
+  outline: none;
+  border: 1px solid #38B5FF;
+  z-index: 99;
+}
+
+.layout .editicon svg path {
+  fill: white;
+  stroke: #38B5FF;
+}
+
+.border-frame .editicon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 5px 0px #c3c3c3;
+  outline: none;
+  border: 1px solid #38B5FF;
+  z-index: 99;
+}
+
+.border-frame .editicon svg path {
+  fill: white;
+  stroke: #38B5FF;
+}
+
+.billingDetail-asw .border-frame .details_Input {
+  font-family: "Montreal";
+  color: #000;
+  font-size: var(--font-small);
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.border-frame .details_Input .gp {
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.form-control.tick~.btns {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0;
+}
+
+.form-control.tick~.btns button {
+  background-color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px #c3c3c3;
+}
+
+.form-control.tick~.btns button.check svg path,
+.form-control.tick~.btns button.times svg path {
+  fill: #38B5FF;
+}
+
+.form-control.tick~.btns button.check:disabled svg path,
+.form-control.tick~.btns button.times:disabled svg path {
+  fill: grey;
+}
+
+
+.billingDetail-asw .border-frame .details_Input p:first-child {
+  width: 180px;
+  color: black;
+  opacity: 0.65;
+  font-size: 14px;
+}
+
+.tab_sec .tab-content .tab-pane label.input-label-asw,
+label.input-label-asw {
+  opacity: 0.65;
+  font-size: 14px;
+  z-index: 9;
+}
+
+.tab_sec .tab-content .tab-pane .overflow-content {
+  overflow-y: auto;
+  position: relative;
+  background-color: #eeeeee;
+  /* height: calc(100vh - 275px); */
+}
+
+.layout-modal .modal-content .modal-body {
+  height: calc(100vh - 60px - 36px);
+}
+
+.layout-modal .modal-content .modal-body form .formdata {
+  height: calc(100% - 54px);
+  overflow: auto;
+}
+
+.layout-modal .modal-content .modal-body form .formdata::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.layout-modal .modal-content .modal-body form .formdata::-webkit-scrollbar-thumb {
+  background-color: #90a4ae;
+  border: 3px solid #fff;
+}
+
+.layout-modal input,
+.layout-modal select,
+.layout-modal select option,
+.layout-modal textarea {
+  font-family: "Montreal";
+  color: #000;
+  font-size: var(--font-small);
+}
+
+.layout-modal input[type="date"],
+.layout-modal input[type="datetime-local"],
+.layout-modal input[type="text"],
+.layout-modal input[type="email"],
+.layout-modal input[type="number"],
+.layout-modal select,
+.layout-modal textarea {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  border: 0px solid transparent;
+  border-bottom: 3px solid #c5c5c5;
+}
+
+.layout-modal .pop-layout .procedure {
+  box-shadow: 0px 0px 6px #9e9e9e inset;
+  padding: 15px 0px;
+  border-radius: 10px;
+}
+
+.events_modal .procedure {
+  box-shadow: 0px 0px 6px #9e9e9e inset;
+  padding: 15px 0px;
+  border-radius: 10px;
+}
+
+.layout-modal input[type="date"]:focus,
+.layout-modal input[type="datetime-local"]:focus,
+.layout-modal input[type="text"]:focus,
+.layout-modal input[type="email"]:focus,
+.layout-modal input[type="number"]:focus,
+.layout-modal select:focus,
+.layout-modal textarea:focus {
+  border-bottom: 2px solid var(--theme-color);
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+small.text-danger {
+  font-family: "Montreal";
+  font-size: var(--font-small);
+  display: none;
+}
+
+.layout-modal input[type="date"]:focus+label,
+.layout-modal input[type="datetime-local"]:focus+label,
+.layout-modal input[type="text"]:focus+label,
+.layout-modal input[type="email"]:focus+label,
+.layout-modal input[type="number"]:focus+label,
+.layout-modal select:focus+label,
+.layout-modal textarea:focus+label {
+  color: var(--theme-color);
+}
+
+.layout-modal textarea.form-control {
+  height: calc(4rem + 2px);
+}
+
+.layout-modal .modal-header {
+  padding: 0px;
+  border: 0px solid transparent;
+}
+
+.layout-modal .box-section span.err {
+  display: none;
+}
+
+.layout-modal .box-section input[type="text"]:focus~span.err,
+.layout-modal .box-section input[type="email"]:focus~span.err {
+  display: block;
+}
+
+input.is-invalid,
+select.is-invalid,
+textarea.is-invalid {
+  border-bottom: 3px solid #dc3545 !important;
+}
+
+.layout-modal input.is-invalid,
+.layout-modal select.is-invalid,
+.layout-modal textarea.is-invalid {
+  border-bottom: 3px solid #dc3545 !important;
+}
+
+
+input[type="date"].is-invalid:focus,
+input[type="datetime-local"].is-invalid:focus,
+input[type="text"].is-invalid:focus,
+input[type="email"].is-invalid:focus,
+input[type="number"].is-invalid:focus,
+select.is-invalid:focus,
+textarea.is-invalid:focus {
+  border-bottom: 3px solid #dc3545 !important;
+  box-shadow: none;
+}
+
+.layout-modal input[type="date"].is-invalid:focus,
+.layout-modal input[type="datetime-local"].is-invalid:focus,
+.layout-modal input[type="text"].is-invalid:focus,
+.layout-modal input[type="email"].is-invalid:focus,
+.layout-modal input[type="number"].is-invalid:focus,
+.layout-modal select.is-invalid:focus,
+.layout-modal textarea.is-invalid:focus {
+  border-bottom: 3px solid #dc3545 !important;
+  box-shadow: none;
+}
+
+
+input[type="date"].is-invalid:focus~small.text-danger,
+input[type="datetime-local"].is-invalid:focus~small.text-danger,
+input[type="text"].is-invalid:focus~small.text-danger,
+input[type="email"].is-invalid:focus~small.text-danger,
+input[type="number"].is-invalid:focus~small.text-danger,
+select.is-invalid:focus~small.text-danger,
+textarea.is-invalid:focus~small.text-danger {
+  display: block;
+}
+
+.layout-modal input[type="date"].is-invalid:focus~small.text-danger,
+.layout-modal input[type="datetime-local"].is-invalid:focus~small.text-danger,
+.layout-modal input[type="text"].is-invalid:focus~small.text-danger,
+.layout-modal input[type="email"].is-invalid:focus~small.text-danger,
+.layout-modal input[type="number"].is-invalid:focus~small.text-danger,
+.layout-modal select.is-invalid:focus~small.text-danger,
+.layout-modal textarea.is-invalid:focus~small.text-danger {
+  display: block;
+}
+
+.layout-modal .modal-header button {
+  /* position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 9; */
+  margin: 0;
+  margin-left: auto;
+  padding: 10px 15px;
+}
+
+.layout-modal .modal-header button.btn-close:focus {
+  box-shadow: none;
+}
+
+.outpatient_fee span {
+  font-size: 15px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.outpatient_fee input.form-control {
+  padding-left: 25px;
+}
+
+.btn.btn-plan:disabled {
+  cursor: not-allowed;
+  pointer-events: unset;
+  background-color: #fff !important;
+  border: 1px solid grey !important;
+  color: grey !important;
+}
+
+.pop-layout {
+  background-color: #eeeeee;
+  border-radius: 10px;
+}
+
+.layout-modal textarea:focus {
+  background-color: #f5f5f5;
+}
+
+.referal-table th,
+.referal-table td,
+.collaborator-table th,
+.collaborator-table td {
+  font-family: "Montreal";
+  font-size: var(--font-small);
+}
+
+.file-uplaod {
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  background-color: #eeeeee;
+  border-bottom: 1px solid lightgrey;
+}
+
+.file-uplaod input[type="file"] {
+  /* visibility: hidden; */
+}
+
+.file-uplaod input[type="file"]:focus {
+  border: 1px solid transparent;
+}
+
+.file-uplaod label {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 101px;
+  cursor: pointer;
+  line-height: 35px;
+  font-size: 14px;
+  opacity: 1;
+  background-color: #eee;
+  padding-left: 12px;
+  border-radius: 5px;
+}
+
+.events-sec .table tbody tr {
+  cursor: pointer;
+}
+
+.events-sec .dropdown-item {
+  cursor: pointer;
+}
+
+.table {
+  /* border-radius: 10px; */
+  position: relative;
+  overflow: hidden;
+}
+
+.pop-layout .table tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.episode_modal .modal-dialog {
+  height: calc(100% - 3.5rem);
+}
+
+.episode_modal .modal-dialog .modal-content {
+  height: 100%;
+}
+
+.episode_modal .modal-dialog .modal-body {
+  height: calc(100% - 58px);
+}
+
+.episode_modal .modal-dialog .modal-body .table-responsive {
+  height: calc(100% - 53px);
+}
+
+.episode-table tbody tr {
+  cursor: pointer;
+}
+
+.episode-table tbody tr.disabled {
+  background-color: #0000001f;
+  color: grey;
+  cursor: default;
+}
+
+.dropdown-item {
+  font-family: "Montreal";
+  font-size: var(--font-regular);
+}
+
+.table-responsive::-webkit-scrollbar {
+  height: 10px;
+}
+
+/* Track */
+.table-responsive::-webkit-scrollbar-track {
+  background: #c4c4c4;
+}
+
+/* Handle */
+.table-responsive::-webkit-scrollbar-thumb {
+  background: #8c8c8c;
+  border-radius: 5px;
+}
+
+.custom-floatLabel {
+  background: #f5f5f5;
+  position: relative;
+}
+
+.custom-floatLabel:focus label {
+  color: var(--theme-color);
+}
+
+.custom-floatLabel label {
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  opacity: 0.65;
+  background: #f5f5f5;
+  transform: scale(0.85) translateY(-0.5rem) translateX(0.15rem);
+  z-index: 0;
+}
+
+/* Handle on hover */
+.table-responsive::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.err {
+  font-family: "Montreal";
+  font-size: var(--font-xxsmall);
+}
+
+.label-custom {
+  border-radius: 5px;
+  border: 0px solid transparent;
+  border-bottom: 2px solid lightgray;
+  background-color: #f5f5f5;
+  padding-top: 26px;
+  min-height: calc(3.5rem + 2px) !important;
+  padding: 23px 12px 4px;
+}
+
+.label-custom span {
+  background-color: hsl(0, 0%, 90%);
+  border-radius: 2px 0px 0px 2px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 0;
+  box-sizing: border-box;
+  background: #38b5ff;
+  display: inline-block;
+  color: white;
+  font-size: 13px;
+  padding: 2px 3px 2px 9px;
+  cursor: pointer;
+}
+
+.label-custom span.cross-icon {
+  padding: 2px 5px;
+  margin: 0px;
+  border-radius: 0px 2px 2px 0px;
+  cursor: pointer;
+}
+
+input:disabled,
+select:disabled {
+  background-color: #e9ecef !important;
+}
+
+.label-custom span.cross-icon:hover {
+  background: #89d3ff;
+}
+
+.form-control.tick {
+  padding-right: 30px !important;
+}
+
+.form-control.label-custom span.cross-icon svg,
+.label-custom span.cross-icon svg {
+  width: 10px;
+  height: 10px;
+}
+
+.demog-title .btns button {
+  background-color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px #c3c3c3;
+}
+
+.demog-title .btns button.check svg path,
+.demog-title .btns button.times svg path {
+  fill: #38B5FF;
+}
+
+.demog-title .btns button.check:disabled svg path,
+.demog-title .btns button.times:disabled svg path {
+  fill: grey;
+}
+
+a.form-floating{
+  color: #000000a6;
+}
+a.form-floating:hover{
+  color: #000000a6;
+}
+a.form-floating input{
+  color: #38B5FF;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1350px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 991px) {
+
+  .tab_sec .tab-content .tab-pane .border-frame,
+  .layout-modal .border-frame {
+    padding: 10px;
+    margin: 10px 0px;
+  }
+
+  .tab_sec .tab-content .tab-pane .details_Input,
+  .layout-modal .details_Input {
+    /* padding: 0px 5px; */
+    /* margin-top: 5px 0px; */
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  .tab_sec .tab-content .tab-pane .border-frame,
+  .layout-modal .border-frame {
+    padding: 10px;
+    margin: 10px 0px;
+    /* background-color: #38B5FF; */
+  }
+
+  .rbt-input-main.form-control.rbt-input {
+    width: 100%;
+    margin-right: 15px;
+  }
+
+  .layout-modal .details_Input {
+    padding: 0px 0px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .tab_sec .nav-link {
+    width: auto;
+    padding: 10px;
+  }
+}

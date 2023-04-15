@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Montreal Light';
+    src: url('./../fonts/montreal-light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montreal';
+    src: url('./../fonts/montreal-regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Montreal Bold';
+    src: url('./../fonts/montreal-bold.ttf') format('truetype');
+}
+
+
+:root{
+    --font-xxsmall:14px;
+    --font-small:16px;
+    --font-regular:18px;
+    --theme-color: #38B5FF;
+}
+
+.Login-pg{
+    height: 100vh;
+}
+.Login-pg{
+
+}
+.Login-pg form{
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 1px lightgrey, -3px -3px 6px 1px #ebebeb;
+}
+.Login-pg h2{
+    font-family: 'Montreal';
+    font-size: 30px;
+    color: var(--theme-color);
+}
+.Login-pg label{
+    font-family: 'Montreal';
+    font-size: var(--font-small);
+    color: #000;
+}
+.Login-pg span{
+    font-family: 'Montreal';
+    font-size: var(--font-small);
+    color: #000;
+}
+.Login-pg a{
+    font-family: 'Montreal';
+    font-size: var(--font-small);
+    color: var(--theme-color);
+}
+.Login-pg .btn-theme{
+    font-family: 'Montreal';
+    font-size: var(--font-small);
+    background-color: var(--theme-color);
+    color: #fff;
+}
+.Login-pg input,
+.Login-pg select,
+.Login-pg select option,
+.Login-pg textarea{
+    font-family: 'Montreal';
+    color: #000;
+    font-size: var(--font-small);
+}
+.Login-pg input[type="date"],
+.Login-pg input[type="text"],
+.Login-pg input[type="email"],
+.Login-pg input[type="password"],
+.Login-pg input[type="number"],
+.Login-pg select,
+.Login-pg textarea{
+    border-radius: 0px;
+    border: 0px solid transparent;
+    border-bottom: 1px solid lightgray;
+}
+.Login-pg input[type="date"]:focus,
+.Login-pg input[type="text"]:focus,
+.Login-pg input[type="email"]:focus,
+.Login-pg input[type="password"]:focus,
+.Login-pg input[type="number"]:focus,
+.Login-pg select:focus,
+.Login-pg textarea:focus{
+    box-shadow: none;
+    border-bottom: 1px solid var(--theme-color);
+}
+.Login-pg input[type="date"]:focus + label,
+.Login-pg input[type="text"]:focus + label,
+.Login-pg input[type="email"]:focus + label,
+.Login-pg input[type="password"]:focus + label,
+.Login-pg input[type="number"]:focus + label,
+.Login-pg select:focus + label,
+.Login-pg textarea:focus + label{
+    color: var(--theme-color);
+}
+.Login-pg input[type="password"]{
+    font-size: 22px;
+}
+.Login-pg .text-err{
+    font-family: 'Montreal';
+    font-size: var(--font-xxsmall);
+    color: red;
+}
+.eye-icon{
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}

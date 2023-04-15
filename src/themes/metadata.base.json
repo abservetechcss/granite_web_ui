@@ -1,0 +1,24 @@
+{
+    "items": [
+        {
+            "key": "$base-accent",
+            "value": "rgba(56, 181, 255, 1)"
+        },
+        {
+            "key": "$treeview-focused-bg",
+            "value": "rgba(56, 181, 255, 0.1)"
+        },
+        {
+            "key": "$base-font-family",
+            "value": "\"Montreal\", \"Noto Kufi Arabic\", \"Helvetica\", \"Arial\", sans-serif"
+        }
+    ],
+    "baseTheme": "material.blue.light",
+    "assetsBasePath": "../../../node_modules/devextreme/dist/css/",
+    "outputColorScheme": "granite",
+    "base": true,
+    "makeSwatch": false,
+    "version": "22.1.3",
+    "widgets": [],
+    "removeExternalResources": false
+}

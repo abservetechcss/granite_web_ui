@@ -1,0 +1,20 @@
+#documentsForm .dx-button-text {
+    text-transform: capitalize;
+    color: #38b5ff;
+    font-family: "montreal";
+    font-size: 16px;
+  }
+
+  #documentsForm .dx-button-mode-outlined {
+    border-color: #38b5ff;
+  }
+
+  .dx-datagrid-headers .dx-datagrid-table .dx-row .boldHeader{
+    font-weight: bold;
+  }
+
+  .GridTitle{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,11 @@
+#fileUploadForm .dx-button-text {
+    text-transform: capitalize;
+    color: #38b5ff;
+    font-family: "montreal";
+    font-size: 16px;
+  }
+
+  #fileUploadForm .dx-button-mode-outlined {
+    border-color: #38b5ff;
+  }
+  
